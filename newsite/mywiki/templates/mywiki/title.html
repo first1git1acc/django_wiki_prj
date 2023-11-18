@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{%load static%}
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-Wikipedia</title>
+    <link rel="stylesheet" href="{% static 'styles/title.css'%}">
+</head>
+<body>
+    <div id="fromh1"><h1 style="text-align: center;">Welcome to mywiki page!</h1></div>
+    <div id="hrefs">
+        <a href="{% url 'mywiki:tagbody' %}">Tag Body</a>
+        <a href="{% url 'mywiki:taghead' %}">Tag Head</a>
+        <a href="{% url 'mywiki:taghtml' %}">Tag HTML</a>
+    </div>
+</body>
+</html>

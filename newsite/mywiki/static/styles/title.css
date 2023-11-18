@@ -1,0 +1,30 @@
+#hrefs>a{
+    text-decoration: none;
+    text-align: center;
+    width:200px;
+    border:1px solid gray;
+    display: block;
+    font-size: 25px;
+    padding: 5px;
+    color: dimgray;
+}
+#hrefs{
+    position: absolute;
+    top:140px;
+    left:580px;
+}
+h1{
+    margin-top: 50px;
+    color:darkslategrey;
+    border: 1px dotted gray;
+    border-radius: 25px;
+    padding:15px;
+    width:400px;
+}
+#hrefs>a:hover{
+background-color: deepskyblue;
+}
+#fromh1{
+    position: relative;
+    left:470px;
+}
